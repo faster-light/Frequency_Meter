@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"frequency_meter\startup_stm32f103xb.o"
+"frequency_meter\main.o"
+"frequency_meter\stm32f1xx_it.o"
+"frequency_meter\stm32f1xx_hal_msp.o"
+"frequency_meter\fonts.o"
+"frequency_meter\ssd1306.o"
+"frequency_meter\stm32f1xx_hal_gpio_ex.o"
+"frequency_meter\stm32f1xx_hal_i2c.o"
+"frequency_meter\stm32f1xx_hal.o"
+"frequency_meter\stm32f1xx_hal_rcc.o"
+"frequency_meter\stm32f1xx_hal_rcc_ex.o"
+"frequency_meter\stm32f1xx_hal_gpio.o"
+"frequency_meter\stm32f1xx_hal_dma.o"
+"frequency_meter\stm32f1xx_hal_cortex.o"
+"frequency_meter\stm32f1xx_hal_pwr.o"
+"frequency_meter\stm32f1xx_hal_flash.o"
+"frequency_meter\stm32f1xx_hal_flash_ex.o"
+"frequency_meter\stm32f1xx_hal_exti.o"
+"frequency_meter\stm32f1xx_hal_tim.o"
+"frequency_meter\stm32f1xx_hal_tim_ex.o"
+"frequency_meter\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Frequency_Meter\Frequency_Meter.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Frequency_Meter.map" -o Frequency_Meter\Frequency_Meter.axf
