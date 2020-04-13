@@ -463,12 +463,12 @@ ARM Macro Assembler    Page 8
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=frequency_meter\startup_stm32f103xb.d -ofrequency_meter\startup_st
-m32f103xb.o -I.\RTE\_Frequency_Meter -IC:\Users\Sector11\AppData\Local\Arm\Pack
-s\ARM\CMSIS\5.6.0\CMSIS\Core\Include -IC:\Users\Sector11\AppData\Local\Arm\Pack
-s\Keil\STM32F1xx_DFP\2.3.0\Device\Include --predefine="__EVAL SETA 1" --predefi
-ne="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 529" --predefine="_R
-TE_ SETA 1" --predefine="STM32F10X_MD SETA 1" --list=startup_stm32f103xb.lst st
-artup_stm32f103xb.s
+m32f103xb.o -I.\RTE\_Frequency_Meter -IC:\Users\Иван\AppData\Local\Arm\Packs\AR
+M\CMSIS\5.6.0\CMSIS\Core\Include -IC:\Users\Иван\AppData\Local\Arm\Packs\Keil\S
+TM32F1xx_DFP\2.3.0\Device\Include --predefine="__EVAL SETA 1" --predefine="__MI
+CROLIB SETA 1" --predefine="__UVISION_VERSION SETA 529" --predefine="_RTE_ SETA
+ 1" --predefine="STM32F10X_MD SETA 1" --list=startup_stm32f103xb.lst startup_st
+m32f103xb.s
 
 
 

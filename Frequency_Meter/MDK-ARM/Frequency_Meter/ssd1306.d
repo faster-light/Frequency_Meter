@@ -21,6 +21,8 @@ frequency_meter\ssd1306.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_ext
 frequency_meter\ssd1306.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
 frequency_meter\ssd1306.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
 frequency_meter\ssd1306.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+frequency_meter\ssd1306.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
+frequency_meter\ssd1306.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
 frequency_meter\ssd1306.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 frequency_meter\ssd1306.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 frequency_meter\ssd1306.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
